@@ -44,8 +44,3 @@ desktop.ini # Windows
 *.log
 coverage/ # Pasta de relatórios de cobertura de testes
 
-#TypeScript e JavaScript
-*.js
-*.d.ts
-!src/
-!tests/
