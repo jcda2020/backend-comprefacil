@@ -41,5 +41,3 @@ export const deleteProduct = (req, res) => {
   res.status(204).send();
 };
 
-
-export const products = [];
