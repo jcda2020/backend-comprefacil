@@ -1,0 +1,51 @@
+﻿# Dependências de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+build/
+dist/
+public/build/ # Se você tem um frontend que gera arquivos nesta pasta
+.next/ # Para projetos Next.js
+out/ # Para projetos estáticos ou de exportação
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Arquivos de Sistema Operacional
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Arquivos de IDEs (VS Code, WebStorm, etc.)
+.vscode/ # Pasta de configurações do VS Code (pode ser ignorada se não for compartilhada)
+.idea/ # WebStorm/IntelliJ
+*.iml # IntelliJ
+
+# Arquivos de cache
+*.swp # Vim
+*.swo # Vim
+*.bak
+*.tmp
+*.log
+coverage/ # Pasta de relatórios de cobertura de testes
+
+#TypeScript e JavaScript
+*.js
+*.d.ts
+!src/
+!tests/
