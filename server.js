@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Backend rodando.");
+  res.send("Backend rodando now.");
 });
 
 app.use("/api/products", productsRouter);
